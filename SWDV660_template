@@ -77,8 +77,8 @@
                             [
                                 "#!/bin/bash",
                                 "sudo yum install --enablerepo=epel -y nodejs",
-                                "wget http://bit.ly/2vESNuc -O /home/ec2-user/helloworld.js",
-                                "wget http://bit.ly/2vVvT18 -O /etc/init/helloworld.conf",
+                                "wget http://bit.ly/2vESNuc -O helloworld.js",
+                                "wget http://bit.ly/2vVvT18 -O helloworld.conf",
                                 "start helloworld"
                             ]
                         ]
